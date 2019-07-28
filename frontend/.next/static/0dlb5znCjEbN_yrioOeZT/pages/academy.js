@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{244:function(e,n,t){__NEXT_REGISTER_PAGE("/academy",function(){return e.exports=t(245),{page:e.exports.default}})},245:function(e,n,t){"use strict";t.r(n);var a=t(12),u=t.n(a);t(202);n.default=function(e){return u.a.createElement("div",null,u.a.createElement("p",null,"Academy!"))}}},[[244,1,0]]]);

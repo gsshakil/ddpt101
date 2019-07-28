@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{246:function(n,e,t){__NEXT_REGISTER_PAGE("/apps",function(){return n.exports=t(293),{page:n.exports.default}})},293:function(n,e,t){"use strict";t.r(e);var p=t(0),u=t.n(p);t(13);e.default=function(n){return u.a.createElement("div",null,u.a.createElement("p",null,"Apps!"))}}},[[246,1,0]]]);

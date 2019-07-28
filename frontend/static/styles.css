@@ -1,0 +1,160 @@
+.navbar{
+    height: 70px;
+    background-color: #1b1b1b !important;
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 
+                0px 4px 5px 0px rgba(0,0,0,0.14), 
+                0px 1px 10px 0px rgba(0,0,0,0.12);
+
+    z-index: 99999;
+}
+.navbar li {
+    margin-right: 15px;
+}
+.navbar li a{
+    padding: 10px 15px;
+    display: block;
+}
+
+.navbar-auth{
+    position: absolute;
+    right: 0;
+}
+
+
+.main-wrapper{
+    margin-left: 80px;
+    background: #999;
+    height: 100%;
+    padding: 50px;
+}
+
+
+/* SEARCH BAR */
+
+.search-bar{
+    position: relative;
+}
+
+
+.search-bar input {
+    transition:.3s;
+    background-color: lighten(#6c6c6e, 5%);
+    color: #fff;
+    display: block;
+    width: 150%;
+    color: #333333;
+    background-color: #d1d1d1;
+    background-clip: padding-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 12px;
+    transition: .3s;
+    padding: 3px;
+    padding-left: 50px;
+}
+
+.search-bar svg {
+    position: absolute;
+    top: 27px;
+    left: 15px;
+    /* color: #999; */
+}
+.search-bar .search-icon svg {
+    color: rgba(#fff, 0.8);
+}
+
+.search-bar input:focus {
+    background-color: #ffff;
+    color: #333333;
+    outline: none;
+}
+.search-bar input:focus .search-icon svg {
+    color: rgba(#f4f4ff, 0.8);
+}
+
+
+
+
+
+.navbar-logged-in{
+    position: absolute;
+    right: 0;
+}
+
+.navbar-logged-in li{
+    margin-right: 0;
+}
+
+.navbar-logged-in li a{
+    color: #999;
+    padding: 10px 12px;
+}
+
+.navbar-logged-in li a svg{
+    /* font-size: 18px; */
+}
+
+
+
+/* ===========================Side Menu Bar ======================== */
+
+.menu-bar{
+  background-color: #1b1b1b;
+  position: relative;
+  left: 0;
+  top: 0;
+  overflow-y: scroll;
+}
+
+.menu-bar ul{
+  position: fixed;
+  left: 0;
+  top: 70px;
+  height: 100%;
+  padding: 0;
+  overflow: auto;
+  background-color: #1b1b1b;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);  
+}
+
+.menu-bar ul li{
+  list-style: none;
+  width: 80px;
+  height: 80px;
+  background-color: #1b1b1b;
+  border-bottom: 1px solid #180f1b;
+  text-align: center;
+  font-size: 11px;
+}
+
+.menu-bar ul li:last-child{
+  border-bottom: none;
+}
+
+.menu-bar ul li a{
+  display: grid;
+  padding: 18px 5px;
+  color: #ddd;
+  transition: .3s;
+}
+
+.menu-bar ul li a svg{
+    margin-left: 25px;
+    font-size: 18px;
+    margin-bottom: 9px;
+}
+
+.menu-bar ul li a:hover,
+.menu-bar ul li a:active{
+  background-color: #180f1b;
+  color: #ddd;
+  text-decoration: none;
+}
+
+.menu-bar ul li a i{
+  font-size: 18px;
+  color: #ddd;
+  margin-bottom: 8px;
+}

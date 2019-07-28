@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{234:function(n,e,t){__NEXT_REGISTER_PAGE("/brands",function(){return n.exports=t(294),{page:n.exports.default}})},294:function(n,e,t){"use strict";t.r(e);var r=t(0),a=t.n(r);t(13);e.default=function(n){return a.a.createElement("div",null,a.a.createElement("p",null,"Brands!"))}}},[[234,1,0]]]);
