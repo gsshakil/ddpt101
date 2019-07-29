@@ -23,7 +23,7 @@ class ProfileMenu extends React.Component {
 
                         <div className="profile-wrapper">
                             <div className="profile-image">
-                                <img src="" alt="User Picture"/>
+                                <img src="https://via.placeholder.com/150" alt="User Picture"/>
                             </div>
                             <h1><Link href=""><a>Jhon Doe</a></Link></h1>
                             <small>20000 Credits</small>

@@ -158,3 +158,64 @@
   color: #ddd;
   margin-bottom: 8px;
 }
+
+
+/* ============ PROFILE MENU ==================== */
+
+.bm-overlay{
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7) !important;
+}
+
+.bm-item-list{
+    left: -100px !important;
+    top: -47px !important;
+}
+
+.profile-menu{
+    background-color: #861f1d;
+    height: 100%;
+    overflow: auto;
+    padding: 50px;
+    text-align: center;
+}
+
+.profile-wrapper{}
+
+.profile-wrapper .profile-image{
+    overflow: hidden;
+}
+.profile-wrapper .profile-image img{
+    border-radius: 50%;
+}
+.profile-wrapper a{}
+.profile-wrapper a:hover{
+    text-decoration: none;
+}
+
+.profile-menu ul{
+    padding: 0;
+    margin-top: -180px;
+}
+
+.profile-menu ul li{
+    list-style: none;
+}
+
+.profile-menu ul li a{
+
+}
+
+.profile-menu ul li a:hover{
+    text-decoration: none;
+}
+
+.bm-burger-button button{
+    right: 0;
+    width: 40px;
+}
+
+.bm-burger-button button:focus{
+    outline: none;
+}
