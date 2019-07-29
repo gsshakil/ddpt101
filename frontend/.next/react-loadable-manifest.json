@@ -23,7 +23,7 @@
       "publicPath": "static/chunks/commons.3af10f1028f4f7985048.js"
     }
   ],
-  "../modules/_core": [
+  "../../modules/_core": [
     {
       "id": 5,
       "name": "./node_modules/core-js/library/modules/_core.js",
@@ -511,7 +511,7 @@
       "publicPath": "static/chunks/commons.3af10f1028f4f7985048.js"
     }
   ],
-  "./_wks-ext": [
+  "../../modules/_wks-ext": [
     {
       "id": 80,
       "name": "./node_modules/core-js/library/modules/_wks-ext.js",
