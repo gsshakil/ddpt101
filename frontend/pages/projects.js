@@ -1,8 +1,9 @@
-import Link from 'next/link';
+import React from 'react';
+import ProjectList from '../components/Projects/index';
 
 const Projects = props => (
   <div>
-    <p>Projects!</p>
+    <ProjectList></ProjectList>
   </div>
 );
 

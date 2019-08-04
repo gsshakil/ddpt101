@@ -58,7 +58,7 @@ class Header extends React.Component {
         return(
             <section>
                 <header>
-                    <nav className="navbar navbar-expand-md navbar-dark">
+                    <nav className="navbar navbar-expand-md fixed-top navbar-dark">
                     <Link href="/">
                         <a className="nav-link"><img src="http://deepdenv1.herokuapp.com/9d1b1a3d1bfd40c2e0173de06dda6a83.png" height="34px" alt="logo"/></a>
                     </Link>

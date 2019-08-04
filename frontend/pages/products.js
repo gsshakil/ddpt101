@@ -1,9 +1,15 @@
-import Link from 'next/link';
+import React from 'react';
+import ProductList from '../components/Products/index';
 
-const Products = props => (
-  <div>
-    <p>Products!</p>
-  </div>
-);
+class Products extends React.Component {
+
+  render(){
+    return(
+      <div>
+        <ProductList></ProductList>
+      </div>
+    )
+  }
+}
 
 export default Products;

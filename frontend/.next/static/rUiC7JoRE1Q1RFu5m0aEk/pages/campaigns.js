@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{248:function(n,e,t){__NEXT_REGISTER_PAGE("/campaigns",function(){return n.exports=t(295),{page:n.exports.default}})},295:function(n,e,t){"use strict";t.r(e);var a=t(0),u=t.n(a);t(13);e.default=function(n){return u.a.createElement("div",null,u.a.createElement("p",null,"Campaigns!"))}}},[[248,1,0]]]);

@@ -1,7 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-
-import avatar1 from '../../../public/avatar1.png';
+import Link from 'next/link';
 
 class ConnectionCard extends React.Component  {
     render(){
@@ -9,10 +7,10 @@ class ConnectionCard extends React.Component  {
             <div className="connection-card">
                 <div className="content">
                     <div className="avatar">
-                        <img src={avatar1} alt=""/>
+                        <img src="https://via.placeholder.com/150" alt=""/>
                     </div>
                     <div className="user-info m-b-xs">
-                        <Link to="/people-details"><h3 className="name">Jhon Doe</h3></Link>
+                        <Link href="/people-details"><a><h3 className="name">Jhon Doe</h3></a></Link>
                         <p className="occupation">Architect, Serial Enterprenur</p>
                         <p className="location">Dhaka, Bangladesh</p>
                     </div>

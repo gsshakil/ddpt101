@@ -1,9 +1,18 @@
+import React from 'react';
 import Link from 'next/link';
 
-const Brands = props => (
-  <div>
-    <p>Brands!</p>
-  </div>
-);
+import BrandList from '../components/Brands/index';
+
+class Brands extends React.Component {
+
+  render(){
+    return(
+      <div>
+        <BrandList></BrandList>
+      </div>
+    );
+  }
+
+}
 
 export default Brands;

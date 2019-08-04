@@ -10,7 +10,7 @@ class PeopleCard extends React.Component  {
                         <img src="https://via.placeholder.com/150" alt=""/>
                     </div>
                     <div className="user-info">
-                        <Link href="/people-details"><a><h2 className="name">Jhon Doe</h2></a></Link>
+                        <Link href="/people-details-page"><a><h2 className="name">Jhon Doe</h2></a></Link>
                         <p className="occupation">Architect, Serial Enterprenur</p>
                         <p className="location">Dhaka, Bangladesh</p>
                     </div>

@@ -9,7 +9,7 @@ const PeopleList = () => {
                 <div className="content">
                     <h1>Connect with Creative Professionals</h1>
                     <p className="m-b-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates unde alias incidunt deleniti fugiat iure quod perferendis officia labore corporis, quasi a accusamus soluta laudantium ipsa necessitatibus tenetur ducimus?</p>            
-                    <button className="btn btn-outline-light btn-lg">Create Your Profile</button>                    
+                    <button className="btn btn-outline-light">Create Your Profile</button>                    
                 </div>
             </div>
             <div className="list-wrapper">

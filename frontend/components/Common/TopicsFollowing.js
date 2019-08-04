@@ -1,9 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import TopicFollowingCard from './ToppicFollowingCard';
-
-import avatar1 from '../../../public/avatar1.png';
 
 
 class TopicsFollowing extends React.Component  {

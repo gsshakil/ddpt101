@@ -1,9 +1,17 @@
-import Link from 'next/link';
+import React from 'react';
 
-const Apps = props => (
-  <div>
-    <p>Apps!</p>
-  </div>
-);
+import AppsList from '../components/Apps/index';
 
-export default Apps;
+class Brands extends React.Component {
+
+  render(){
+    return(
+      <div>
+        <AppsList></AppsList>
+      </div>
+    );
+  }
+
+}
+
+export default AppsList;

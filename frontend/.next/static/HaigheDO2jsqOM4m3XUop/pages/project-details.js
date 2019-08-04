@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[31],{521:function(n,o,e){__NEXT_REGISTER_PAGE("/project-details",function(){return n.exports=e(522),{page:n.exports.default}})},522:function(n,o){}},[[521,1]]]);

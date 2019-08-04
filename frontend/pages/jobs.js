@@ -1,9 +1,12 @@
-import Link from 'next/link';
+import React from 'react';
+import JobList from '../components/Jobs/index';
 
-const Jobs = props => (
-  <div>
-    <p>Jobs!</p>
-  </div>
-);
+class Jobs extends React.Component{
+  render(){
+    return(
+      <JobList></JobList>
+    );
+  }
+}
 
-export default Jobs;
+export default JobList;

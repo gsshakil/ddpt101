@@ -1,9 +1,16 @@
-import Link from 'next/link';
+import React from 'react';
+import AcademyLanding from '../components/Academy/index';
 
-const Academy = props => (
-  <div>
-    <p>Academy!</p>
-  </div>
-);
+
+class Academy extends React.Component {
+  render(){
+    return(
+      <div>
+        <AcademyLanding></AcademyLanding>
+      </div>
+    )
+  }
+  
+}
 
 export default Academy;

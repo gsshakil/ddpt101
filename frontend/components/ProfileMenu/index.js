@@ -31,10 +31,10 @@ class ProfileMenu extends React.Component {
                         <hr/> 
                         <div className="d-flex align-items-center h-100 justify-content-center">
                             <ul className="menu-items">
-                                <li><Link href="/admin/dashboard"><a>Dashboard</a></Link></li>
-                                <li><Link href="/userprofile"><a>View Profile</a></Link></li>
-                                <li><Link href="edit-profile"><a>Edit Profile</a></Link></li>
-                                <li><Link href="connect-brand"><a>Create/Connect Brands</a></Link></li>
+                                <li><Link href="admin/dashboard"><a>Dashboard</a></Link></li>
+                                <li><Link href="userprofile"><a>View Profile</a></Link></li>
+                                <li><Link href="/people-edit"><a>Edit Profile</a></Link></li>
+                                <li><Link href="/brand-create-connect"><a>Create/Connect Brands</a></Link></li>
                                 <li><Link href="create-job"><a>Post a Job</a></Link></li>
                                 <li><Link href="create-shop"><a>Create a Shop</a></Link></li>
                                 <li><Link href="/become-instructor"><a>Become an Instructor</a></Link></li>

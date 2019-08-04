@@ -1,0 +1,178 @@
+.section{
+    background-color: #777;
+    width: 100%;
+}
+
+.subtitle{
+    color: #ccc;
+}
+
+.section img{
+    width: 100%;    
+}
+
+
+.section-1{
+    background-color: #111;
+    height: 100vh;
+    display: table;
+    padding: 0px 100px;
+    color: rgb(78, 78, 78);    
+}
+
+.section-1 .heading{
+    color: #bf1e2d;
+}
+
+.section-1 .content{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.section-1 .video-wrapper iframe{
+    padding: 100px;
+}
+
+.auth-wrapper{
+    padding: 0 50px;
+}
+
+
+.section-2{
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+}
+
+.section-2 .heading-style-1{
+    text-align: center;
+    padding: 50px 0 0;
+}
+
+.section-2 .trending-projects{
+    padding: 0 10% 50px;
+}
+
+.section-2 .trending-projects .subtitle{
+    margin-left: -13px;
+    color:  #1a1919;
+
+}
+
+.section-2 .trending-projects .project-card-mini{
+    background-color: rgb(146, 146, 146);
+    border: 1px solid rgb(201, 201, 201);
+    width: 100%;
+    height: 220px;
+}
+
+.section-3{
+    background-color: #87766c;
+    padding: 80px 150px;
+    color: #fff;
+    text-align: center;
+}
+
+.section-3 h1{
+    margin-top: 190px;    
+}
+
+.section-4{
+    background-color: #ffffff;
+    padding: 80px 150px;
+    color: rgb(161, 23, 115);
+}
+
+.section-4 h1{
+    margin-top: 150px;    
+}
+
+.section-5{
+    background-color: #d13d8e;
+    padding: 80px;
+    color: #fff;
+    text-align: center;
+}
+
+.section-5 .col-md-3{
+    background-color: #ddd;
+}
+
+.section-5 img{
+    width: 100%;
+    height: 100%;
+}
+
+.section-6{
+    background-color: #3dd1a5;
+    padding: 80px 150px;
+    color: #fff;
+    text-align: center;
+}
+
+.section-6 .job-card{
+    background-color: #dadada;
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #999;
+}
+
+.section-7{
+    background-color: #272727;
+    padding: 80px 150px;
+    color: #fff;
+    text-align: center;
+}
+
+.section-7 h1{
+    color: #bf1e2d;
+}
+
+.section-7 h2{
+    color: #666;
+}
+
+.section-7 .subtitle{
+    color: #555;
+}
+
+.section-7 .learning-path-card{
+    background-color: #f4f4f4;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.learning-path-card.c1{background-color: #3dd1a5}
+.learning-path-card.c2{background-color: #3d65d1}
+.learning-path-card.c3{background-color: #78d13d}
+.learning-path-card.c4{background-color: #af3dd1}
+.learning-path-card.c5{background-color: #b1d13d}
+.learning-path-card.c6{background-color: #d1853d}
+
+.section-8{
+    background-color: #c5c0c0;
+    padding: 80px 150px;
+    color: #333;
+    text-align: center;
+}
+
+.section-8 h2{
+    color: #999;
+}
+
+.section-8 .apps-card{
+    background-color: #545457;
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #999;
+}
+
+.section-9{
+    background-color: #1a1919;
+    padding: 150px;
+    color: #ddd;
+    text-align: center;
+}
